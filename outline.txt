@@ -1,0 +1,16 @@
+Approaches
+
+Contacts
+-plot number of contacts against credit scores (scatter plot), report basic stats
+-would be curious to consider average credit score of user’s contacts, if available (probably not, since only 400 users)
+
+Call Records
+-consider number of calls, average length of calls among users
+-visualize subpopulation of users who call at each time of day
+
+Messages
+-consider number of messages, average length
+-identify types of messages (payment notification, billing notice)
+
+
+After exploratory analysis, brainstorm effective ways to segment the user population.
