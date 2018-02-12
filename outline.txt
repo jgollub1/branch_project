@@ -11,6 +11,6 @@ Call Records
 Messages
 -consider number of messages, average length
 -identify types of messages (payment notification, billing notice)
-
+-discover certain types of messages that are predictive of full payment
 
 After exploratory analysis, brainstorm effective ways to segment the user population.

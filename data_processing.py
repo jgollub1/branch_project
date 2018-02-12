@@ -56,6 +56,8 @@ if __name__=="__main__":
 
 	sms_df = generate_df(file_paths, d_type='sms_log')
 	sms_df['message_body'] = sms_df['message_body'].replace(np.nan, '', regex=True)
+	sms_df['message_body'] = sms_df['message_body'].str.replace(".",". ") # prepare sms for tokenization
+	sms_df['message_body'] = sms_df['message_body'].str.replace(",",", ")
 	sms_df['message_len'] = [len(s) for s in sms_df['message_body']]
 	sms_df.to_csv('user_sms.csv', encoding='utf-8', index=False)
 
